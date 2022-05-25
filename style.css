@@ -1,0 +1,74 @@
+* {
+    font-family: 'Moncondo', cursive;
+    color: white;
+}
+body {
+    background-color: #800000;
+}
+
+header {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 8px;
+    border: 10px solid black;
+}
+
+#Menu, #Inicio  {
+    font-size: 40px;
+    padding: 12px;
+}
+
+body {
+    text-align: center;
+}
+
+#Nombre {
+    font-size: 65px;
+}
+
+p {
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.Fotos {
+    height: 500px;
+    weight: 500px;
+    border-color: white;
+    border-radius: 50%;
+    border-style: dashed solid;
+    border-width: 8px;
+}
+
+#volver {
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color:black;
+    font-family: helvetica ;
+    font-size:50px ;
+    
+    
+    
+}
+
+a:link{
+    color:blueviolet;
+
+}
+a:visited{
+    color:orange;
+
+}
+a:hover{
+    color:brown
+
+}
+a:active{
+    color:green;
+
+}
