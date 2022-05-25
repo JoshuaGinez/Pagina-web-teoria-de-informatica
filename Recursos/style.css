@@ -1,85 +1,61 @@
-*{
-    margin:0;
+* {
+    font-family: 'Moncondo', cursive;
+    color: white;
+}
+body {
+    background-color: #800000;
 }
 
-header{
-       text-align: center;
-       background-color: rgb(59, 60, 61);
-       color:rgb(255, 255, 255);
-       font-family: cursive;
-       font-size: 50px;
-       border: dashed 6px rgb(0, 0, 0);
-       margin:auto;
-}
-
-
-body{
-     background-image: url(./Imagenes/Backgrund.jpg);
-     text-align: center;
-}
- #pony {
-   margin: auto;
-   border-radius: 50%;
- }
-
-h1{
-   font-family: 'Knewave', cursive;
-
-}
-
-.menu{
-      margin:auto;
-
-}
-
-table{
-    background-color: rgb(146, 146, 146);
-    border:0px;
-    border-spacing: 15px;
-    table-layout: auto;
-    font-size: 50px;
-    border-collapse: collapse;
-    padding: 80px;
-}
-
-td, th{
-    border:1px solid black
-
-}
-
-p{
-    color:rgb(174, 177, 177);
-    font-size: 45px;
-
-}
-h2{
-    color:aliceblue;
-    font-size: 85px;
+header {
+    font-size: 80px;
     text-align: center;
-
-
+    font-weight: bold;
+    padding-bottom: 8px;
+    border: 10px solid black;
 }
-.Fotos{
-    width: 750px;
-    height: 750px;
+
+#Menu, #Inicio  {
+    font-size: 40px;
+    padding: 12px;
 }
-h5{
+
+body {
     text-align: center;
-    color:aliceblue;
+}
+
+#Nombre {
+    font-size: 65px;
+}
+
+p {
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.Fotos {
+    height: 500px;
+    weight: 500px;
+    border-color: white;
+    border-radius: 50%;
+    border-style: dashed solid;
+    border-width: 8px;
+}
+
+#volver {
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color:black;
     font-family: helvetica ;
-    font-size:100px ;
-    display:fixed ;
-
+    font-size:50px ;
+    
+    
+    
 }
 
-footer{
-      text-align: center;
-      background-color:black;
-      color:aliceblue;
-      font-family: helvetica ;
-      font-size:50px ;
-
-}
 a:link{
     color:blueviolet;
 
@@ -95,10 +71,4 @@ a:hover{
 a:active{
     color:green;
 
-}
-
-ul{
-    font-weight: bold;
-    color:rgb(174, 177, 177) ;
-    font-size: 45px;
 }
