@@ -1,28 +1,35 @@
 *{
     margin:0;
 }
-header{
-    text-align: center;
-    background-color: rgb(59, 60, 61);
-    color:rgb(255, 255, 255);
-    font-family: cursive;
-    font-size: 50px;
-    border: dashed 6px rgb(0, 0, 0);
 
-    margin:auto;
+header{
+       text-align: center;
+       background-color: rgb(59, 60, 61);
+       color:rgb(255, 255, 255);
+       font-family: cursive;
+       font-size: 50px;
+       border: dashed 6px rgb(0, 0, 0);
+       margin:auto;
 }
+
 
 body{
-    background-image: url(./Imagenes/Backgrund.jpg);
-   text-align: center;
+     background-image: url(./Imagenes/Backgrund.jpg);
+     text-align: center;
 }
+ #pony {
+   margin: auto;
+   border-radius: 50%;
+ }
+
 h1{
-    font-family: 'Knewave', cursive;
+   font-family: 'Knewave', cursive;
 
 }
+
 .menu{
-    margin:auto;
-    
+      margin:auto;
+
 }
 
 table{
@@ -37,10 +44,10 @@ table{
 
 td, th{
     border:1px solid black
-    
+
 }
 
-p{ 
+p{
     color:rgb(174, 177, 177);
     font-size: 45px;
 
@@ -62,32 +69,36 @@ h5{
     font-family: helvetica ;
     font-size:100px ;
     display:fixed ;
-    
+
 }
 
 footer{
-    text-align: center;
-    background-color:black;
-    color:aliceblue;
-    font-family: helvetica ;
-    font-size:50px ;
-   ;
+      text-align: center;
+      background-color:black;
+      color:aliceblue;
+      font-family: helvetica ;
+      font-size:50px ;
+
 }
 a:link{
     color:blueviolet;
+
 }
 a:visited{
     color:orange;
+
 }
 a:hover{
     color:brown
+
 }
 a:active{
     color:green;
+
 }
+
 ul{
     font-weight: bold;
     color:rgb(174, 177, 177) ;
     font-size: 45px;
-
 }
